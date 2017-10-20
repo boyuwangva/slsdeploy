@@ -1,4 +1,4 @@
-service: test-for-git-update # NOTE: update this with your service name
+service: jenkins-test-50 # NOTE: update this with your service name
 
 
 provider:
