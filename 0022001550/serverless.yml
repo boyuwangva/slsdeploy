@@ -1,4 +1,4 @@
-service: jenkins-test-50 # NOTE: update this with your service name
+service: 0022001550-test-for-git # NOTE: update this with your service name
 
 
 provider:
@@ -8,11 +8,11 @@ provider:
   region: ap-northeast-1
 
 functions:
-  vam:
+  test:
     handler: handler.hello
-    name: jenkins-test-50
+    name: 0022001550-test-wang
     events:
       - schedule:
-          rate: cron(0 0 ? * FRI *)
+          rate: cron(1 10 ? * MON *)
           enabled: true
     
