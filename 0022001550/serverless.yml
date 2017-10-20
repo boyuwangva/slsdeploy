@@ -1,4 +1,4 @@
-service: 0022001550-test-for-git # NOTE: update this with your service name
+service: test-for-git-update # NOTE: update this with your service name
 
 
 provider:
