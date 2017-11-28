@@ -1,5 +1,5 @@
 service: os-env-test-wang
-#jenkins-operation:deploy \n$(mkdir test)
+#jenkins-operation:deploy\n$(mkdir test)
 provider:
   name: aws
   runtime: python2.7
