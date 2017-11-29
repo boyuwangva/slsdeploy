@@ -1,5 +1,5 @@
 service: os-env-test-wang
-#jenkins-ope:remove
+#jenkins-ope:removetest
 provider:
   name: aws
   runtime: python2.7
