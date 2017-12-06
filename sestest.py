@@ -14,7 +14,7 @@ def sendEmail():
             },
             Message={
                 'Subject': {
-                    'Data': 'ses change src test',
+                    'Data': 'jenkins test',
                 },
                 'Body':{
                     'Text': {
