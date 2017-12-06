@@ -1,5 +1,5 @@
 service: os-env-test-wang
-#jenkins-ope:
+#jenkins-ope:deploy
 provider:
   name: aws
   runtime: python2.7
@@ -10,7 +10,9 @@ provider:
   timeout: 40
 
   role: arn:aws:iam::056530783435:role/gid-tag-check-project-0022001537
-    
+  environment:
+     SES_REGION: us-west-2   
+     SES_SOURCE: boyu.wang@sony.com
 functions:
   sesSender:
     handler: sestest.lambda_handler
