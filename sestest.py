@@ -14,7 +14,7 @@ def sendEmail():
             },
             Message={
                 'Subject': {
-                    'Data': 'no1 src',
+                    'Data': 'test 1207-1126',
                 },
                 'Body':{
                     'Text': {
