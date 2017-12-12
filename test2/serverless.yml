@@ -1,0 +1,17 @@
+service: os-env-test-wang-2
+#jenkins-ope:remove
+provider:
+  name: aws
+  runtime: python2.7
+
+  stage: dev
+  region: ap-northeast-1
+  memorySize: 128
+  timeout: 40
+
+functions:
+  sesSender:
+    handler: sestest.lambda_handler
+    name: sestest
+
+    
