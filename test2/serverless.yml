@@ -10,7 +10,7 @@ provider:
   timeout: 40
 
 functions:
-  sesSender:
+  sesSender2:
     handler: sestest.lambda_handler
     name: sestest
 
