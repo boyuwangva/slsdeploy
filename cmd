@@ -1,3 +1,3 @@
 ope_num: 2
 func_dir: test2/, test1/
-func_ope: deploy, deploy
+func_ope: remove, remove
