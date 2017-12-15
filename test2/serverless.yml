@@ -12,6 +12,6 @@ provider:
 functions:
   sesSender2:
     handler: sestest.lambda_handler
-    name: sestest
+    name: sestest2
 
     
